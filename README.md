@@ -14,4 +14,7 @@ Chain Explorer Dapp tracks on-chain data, gas costs, and token details across Et
 - [Base](https://base.blockscout.com/api-docs)
 - [Ethereum](https://docs.etherscan.io/api-endpoints/tokens)
 
-#### Inside the DApp
+### Inside the DApp
+
+![ScreenshotOne](./screenshots/one.png)
+![ScreenshotTwo](./screenshots/two.png)
