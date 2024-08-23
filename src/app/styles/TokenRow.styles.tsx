@@ -24,7 +24,7 @@ const shrinkWidth = keyframes`
     }
 `;
 
-const growWidthAnimation = (props) => {
+const growWidthAnimation = (props: IHoverArrow) => {
   if (props.$hover) {
     return css<IHoverArrow>`
       ${growWidth} 350ms forwards linear

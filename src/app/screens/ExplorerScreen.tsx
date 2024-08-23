@@ -172,10 +172,6 @@ const ExplorerScreen = () => {
     setBlockchainTokenLoading(false);
   }, [selectedNetwork]);
 
-  useEffect(() => {
-    console.log(blockchainTokenState);
-  }, [blockchainTokenState]);
-
   return (
     <MainExplorer id={explorerHREF} $bgImg={patternBgImg.src}>
       <PositionContainer $miscellaneous="min-height: 100%;">

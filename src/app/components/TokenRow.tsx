@@ -70,8 +70,6 @@ const TokenRow = ({
 
           const { logo } = data;
 
-          console.log({ selectedNetwork, address, data });
-
           if (logo !== null) {
             icon = logo;
           }
